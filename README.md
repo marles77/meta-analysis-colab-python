@@ -1,8 +1,8 @@
-# meta-analysis-colab-python
+# Meta-analysis with Colab and Python
 Perform meta-analysis in Google Colab using Python &amp; R via rpy2 package.
 
 ## Aim
-Creating a meta-analysis template in Python, including generating a forest plot and a funnel plot.
+Creating a meta-analysis template in Python, including generating a forest plot and a funnel plot to assess publication bias.
 
 ## Problem
 Python lacks a stable, mature package for meta-analysis, and the existing API from [statsmodels](https://www.statsmodels.org/stable/stats.html#module-statsmodels.stats.meta_analysis) is still in experimental version. R, on the other hand, provides well-designed and tested packages, like [metafor](https://wviechtb.github.io/metafor/) which remains a standard in scientific publications. However, some people (such as myself) choose Python as their preferred programming language for data analysis and visualization. If we want to keep our code neat, consistent and easily accessible it turns out that we do not have a good optin here.
